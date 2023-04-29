@@ -1,5 +1,5 @@
 import './style.css';
-import { Layer } from './Layer/layer.js';
+import { Layer } from '../Layer/layer.js';
 
 export const Drink = (props) => {
   const { id, name, ordered, image, layers } = props;
